@@ -7,12 +7,14 @@ const Octicons = require('react-native-vector-icons/Octicons');
 const Zocial = require('react-native-vector-icons/Zocial');
 const Foundation = require('react-native-vector-icons/Foundation');
 
-import React, {
+import ReactNative, {
   View,
   Animated,
   Easing,
   StyleSheet
 } from 'react-native';
+
+import React from 'react';
 
 const styles = StyleSheet.create({
   mainContainer: {flex: 1, justifyContent: "center", alignItems: "center", position:"absolute", top: 0, bottom: 0, left: 0, right: 0},
